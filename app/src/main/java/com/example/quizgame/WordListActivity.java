@@ -37,16 +37,19 @@ public class WordListActivity extends AppCompatActivity {
 class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
    private WordItem[] items = {
-           new WordItem(R.drawable.cat, "CAT","แมว"),
-           new WordItem(R.drawable.dog, "DOG","สุนัข"),
-           new WordItem(R.drawable.dolphin, "DOLPHIN","โลมา"),
-           new WordItem(R.drawable.koala, "KOALA","โคอาล่า"),
-           new WordItem(R.drawable.lion, "LION","แมว"),
-           new WordItem(R.drawable.owl, "OWL","แมว"),
-           new WordItem(R.drawable.penguin, "PENGUIN","แมว"),
-           new WordItem(R.drawable.pig, "PIG","แมว"),
-           new WordItem(R.drawable.rabbit, "RABBIT","แมว"),
-           new WordItem(R.drawable.tiger, "TIGER","แมว")
+           new WordItem(R.drawable.apple, "APPLE","แอปเปิล"),
+           new WordItem(R.drawable.avocado, "AVOCADO","อะโวคาโด"),
+           new WordItem(R.drawable.banana, "BANANA","กล้วย"),
+           new WordItem(R.drawable.cherry, "CHERRY","เชอรี่"),
+           new WordItem(R.drawable.kiwi, "KIWI","กีวี"),
+           new WordItem(R.drawable.mango, "MANGO","มะม่วง"),
+           new WordItem(R.drawable.mangosteen, "MANGOSTEEN","มังคุด"),
+           new WordItem(R.drawable.orange, "ORANGE","ส้ม"),
+           new WordItem(R.drawable.pineapple, "PINEAPPLE","สับปะรด"),
+           new WordItem(R.drawable.pomegranate, "POMEGRANATE","ทับทิม"),
+           new WordItem(R.drawable.rambutan, "RAMBUTAN","เงาะ"),
+           new WordItem(R.drawable.strawberry, "STRAWBERRY","สตรอว์เบอร์รี"),
+           new WordItem(R.drawable.watermelon, "WATERMELON","แตงโม")
    };
 
    MyAdapter() {
